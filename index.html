@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Museum Guide</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <section id="gallery">
+        <h1 id="galleryHeader1"> Museum App</h1>
+        <div id="finder">
+          <select name="painter" id="painterSelector">
+            <option>Select Painter</option>
+          </select>
+          <form id="selectYears">
+            <input
+              type="number"
+              name="minYear"
+              id="minYear"
+              placeholder="Year From"
+            />
+            <input
+              type="number"
+              name="maxYear"
+              id="maxYear"
+              placeholder="Year Till"
+            />
+            <button type="button" id="searchForYears">Look For Years</button>
+          </form>
+        </div>
+        <h2 id="galleryHeader2">Gallery</h2>
+      </section>
+    </main>
+    <footer>
+      <p>TechNomad4</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./data/data.js"></script>
+    <script src="./app/index.js"></script>
+  </body>
+</html>
