@@ -1,0 +1,101 @@
+body {
+  background-color: ##FFF5EE;
+}
+
+main {
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  display: flexbox;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-block-start: 3vw;
+  margin-block-end: 3vw;
+  padding: 5vh 0;
+}
+
+#inMain {
+  text-align: center;
+}
+
+#postBtn {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.formInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 20vw;
+  border: black 2px solid;
+  border-radius: 25px;
+}
+
+img {
+  display: inline-block;
+  max-width: 90%;
+  height: auto;
+}
+
+form {
+  border: 1px solid grey;
+  border-radius: 25px;
+  padding: 1vh 1vw;
+  margin: 3vh 20vw;
+}
+
+input,
+textarea {
+  font-size: 24px;
+}
+
+#goHome {
+  font-size: 24px;
+  font-weight: 600;
+  color: #feba02;
+}
+
+#goHome:visited {
+  color: #feba02;
+}
+
+#goHome:hover {
+  color: #00aa02;
+}
+
+#container {
+  transition: opacity 0.4s ease-out;
+  opacity: 1;
+}
+
+#container:hover #mainArtObject {
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0.2;
+}
+
+#backText {
+  width: 450px;
+  margin: auto;
+  transform: translateY(-320px);
+  opacity: 0;
+  color: black;
+}
+
+#container:hover #backText {
+  transition: opacity 0.4s ease-in-out;
+  opacity: 1;
+}
+
+#likeBtn,
+#postBtn {
+  font-size: 24px;
+  border-radius: 5px;
+  color: aqua;
+  background-color: blue;
+}

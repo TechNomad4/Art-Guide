@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mountain Art</title>
+    <link rel="stylesheet" href="../styles/detailPage.css" />
+  </head>
+  <body>
+    <main>
+      <div id="inMain">
+        <a href="/" id="goHome">Go Home</a>
+        <p> Museum App</p>
+        <h1 id="pageHeader">Mountain Art</h1>
+        <div id="container">
+          <img
+            id="mainArtObject"
+            class="artObject"
+          />
+          <h4 id="backText"></h4>
+        </div>
+        <h4 id="paintAuthor"></h4>
+        <button type="button" id="likeBtn">Like</button>
+        <h2>Comments</h2>
+        <div id="commentsSpace">
+          <section class="comment">
+            <h3>Wambui said:</h3>
+            <p>"This is definitely one of my favorites!"</p>
+          </section>
+        </div>
+
+        <form action="">
+          <div class="formInputs">
+            <label for="Name Input">Name:</label>
+            <input id="nameInput" type="text" />
+          </div class="formInputs">
+
+          <div class="formInputs">
+            <label for="Message Input">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div>
+            <button id="postBtn" type="button" onclick="newComment()">POST YOUR COMMENT</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../data/data.js"></script>
+    <script src="../app/detail.js"></script>
+    <script src="../app/likes.js"></script>
+    <script src="../app/randomFact.js"></script>
+  </body>
+</html>

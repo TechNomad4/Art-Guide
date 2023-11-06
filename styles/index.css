@@ -1,0 +1,48 @@
+body {
+  background-color: ##F8F8FF;
+}
+
+#gallery {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block-start: 3vw;
+  margin-block-end: 3vw;
+}
+
+.artObject {
+  margin: 1vw;
+  display: inline-block;
+  max-width: 80%;
+  height: auto;
+}
+
+#galleryHeader1 {
+  width: 100%;
+  text-align: center;
+}
+
+#galleryHeader2 {
+  align-self: center;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+body > footer > p {
+  padding-bottom: 3vw;
+}
+
+#finder {
+  width: 100%;
+  text-align: center;
+}
+
+#selectYears {
+  margin-top: 10px;
+}
